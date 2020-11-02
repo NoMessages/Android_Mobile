@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="空调控制"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="581dp"
+            android:layout_height="325dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="195dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="31dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="245dp"
+                android:layout_height="178dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:background="#eee">
+
+                <ImageView
+                    android:id="@+id/fm2_img_cold"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="157dp"
+                    android:layout_marginRight="157dp"
+                    android:layout_marginBottom="61dp"
+                    android:src="@drawable/lengfeng" />
+
+                <ImageView
+                    android:id="@+id/fm2_img_hot"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginBottom="63dp"
+                    android:src="@drawable/refeng" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/fm2_btn_cold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginLeft="118dp"
+                android:layout_marginBottom="66dp"
+                android:text="冷风" />
+
+            <Button
+                android:id="@+id/fm2_btn_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="239dp"
+                android:layout_marginLeft="239dp"
+                android:layout_marginBottom="65dp"
+                android:text="暖风" />
+
+            <Button
+                android:id="@+id/fm2_btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="181dp"
+                android:layout_marginLeft="181dp"
+                android:layout_marginBottom="-1dp"
+                android:text="关闭" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

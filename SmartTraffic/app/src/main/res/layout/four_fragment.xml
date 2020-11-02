@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="分配岗位"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e1e1e1"
+        >
+
+        <LinearLayout
+            android:layout_width="861dp"
+            android:layout_height="388dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="44dp"
+            android:orientation="horizontal"
+            >
+           <GridView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:numColumns="4"
+               android:id="@+id/fm4_list"
+               />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
